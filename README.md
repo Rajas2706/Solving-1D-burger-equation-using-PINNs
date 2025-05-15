@@ -9,6 +9,7 @@ This project implements a **Physics-Informed Neural Network (PINN)** using Tenso
 The 1D viscous Burgers' equation is:
 
 ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
+---
 ## 📁 Project Structure
 
 ```bash
