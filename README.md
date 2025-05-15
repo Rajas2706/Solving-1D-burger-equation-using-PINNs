@@ -26,7 +26,7 @@ The 1D viscous Burgers' equation is:
 ├── .gitignore           # Files to exclude from Git
 
 ```
-##🧪 About
+## 🧪 About
 > The PINN model learns the solution 
 u(t,x) of the Burgers' equation:
  ### ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
