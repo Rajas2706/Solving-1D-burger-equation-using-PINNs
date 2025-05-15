@@ -11,7 +11,7 @@ The 1D viscous Burgers' equation is:
 ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
 ---
 ## 📁 Project Structure
-
+```bash
 ├── training/            # PINN model training
 │   ├── main.py          # Training script
 │   ├── network.py       # Neural network architecture
@@ -25,7 +25,7 @@ The 1D viscous Burgers' equation is:
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Files to exclude from Git
 
----
+```
 
 ## 🖥️ Installation
 
