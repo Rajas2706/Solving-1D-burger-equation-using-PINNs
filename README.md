@@ -26,3 +26,16 @@ The 1D viscous Burgers' equation is:
 ├── pinn_model.h5        # Trained PINN model
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Files to exclude from Git
+
+---
+
+## 🖥️ Installation
+
+> ⚠️ Python 3.8 or higher is recommended.
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/pinn-burgers.git
+cd pinn-burgers
+
