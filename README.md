@@ -12,8 +12,6 @@ The 1D viscous Burgers' equation is:
 ---
 ## 📁 Project Structure
 
-```bash
-.
 ├── training/            # PINN model training
 │   ├── main.py          # Training script
 │   ├── network.py       # Neural network architecture
