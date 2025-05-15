@@ -70,13 +70,13 @@ streamlit run webapp/app.py
 ## 📋 About .gitignore
 > The .gitignore file tells Git which files or folders to ignore and not track in version control. This usually includes:
 
-Model weights (*.h5) that are large and can be regenerated.
+ >Model weights (*.h5) that are large and can be regenerated.
 
-Python cache files (__pycache__/).
+> Python cache files (__pycache__/).
 
-Environment files.
+> Environment files.
 
-Logs and temporary files.
+> Logs and temporary files.
 
-This helps keep your repository clean and avoids uploading unnecessary files.
+> This helps keep your repository clean and avoids uploading unnecessary files.
 ---
