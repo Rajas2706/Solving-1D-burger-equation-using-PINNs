@@ -31,7 +31,7 @@ The 1D viscous Burgers' equation is:
 u(t,x) of the Burgers' equation:
  ### ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
 where ν is the kinematic viscosity. The neural network is trained with physics constraints encoded as loss functions to satisfy the PDE, initial and boundary conditions.
-
+---
 ## 🖥️ Installation
 
 > ⚠️ Python 3.8 or higher is recommended.
@@ -41,5 +41,5 @@ where ν is the kinematic viscosity. The neural network is trained with physics 
 ```bash
 git clone https://github.com/Rajas2706/Solving-1D-burger-equation-using-PINNs.git
 cd Solving-1D-burger-equation-using-PINNs
-
+```
 
