@@ -43,4 +43,24 @@ u(t,x) of the Burgers' equation:
 git clone https://github.com/Rajas2706/Solving-1D-burger-equation-using-PINNs.git
 cd Solving-1D-burger-equation-using-PINNs
 ```
-
+### 2. Create and activate a Python virtual environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+### 3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## ⚙️ Usage
+### Training the model
+#### Navigate to the training/ folder and run:
+```bash
+python main.py
+```
+>This trains the PINN model and saves the weights to pinn_model.h5.
+## Running the web app
+### Launch the Streamlit app to interactively explore predictions:
+```bash
+streamlit run webapp/app.py
+>Open the provided localhost URL in your browser to use the interface.
