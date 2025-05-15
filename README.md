@@ -29,9 +29,9 @@ The 1D viscous Burgers' equation is:
 ## 🧪 About
 > The PINN model learns the solution 
 u(t,x) of the Burgers' equation:
+
  ### ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
- -
-where ν is the kinematic viscosity. The neural network is trained with physics constraints encoded as loss functions to satisfy the PDE, initial and boundary conditions.
+ >where ν is the kinematic viscosity. The neural network is trained with physics constraints encoded as loss functions to satisfy the PDE, initial and boundary conditions.
 ---
 ## 🖥️ Installation
 
