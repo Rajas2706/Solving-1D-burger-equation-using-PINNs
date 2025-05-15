@@ -52,6 +52,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 pip install -r requirements.txt
 ```
+---
 ## ⚙️ Usage
 ### Training the model
 #### Navigate to the training/ folder and run:
@@ -63,4 +64,19 @@ python main.py
 ### Launch the Streamlit app to interactively explore predictions:
 ```bash
 streamlit run webapp/app.py
+```
 >Open the provided localhost URL in your browser to use the interface.
+---
+## 📋 About .gitignore
+> The .gitignore file tells Git which files or folders to ignore and not track in version control. This usually includes:
+
+Model weights (*.h5) that are large and can be regenerated.
+
+Python cache files (__pycache__/).
+
+Environment files.
+
+Logs and temporary files.
+
+This helps keep your repository clean and avoids uploading unnecessary files.
+---
