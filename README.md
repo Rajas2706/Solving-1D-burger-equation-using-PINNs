@@ -26,6 +26,11 @@ The 1D viscous Burgers' equation is:
 ├── .gitignore           # Files to exclude from Git
 
 ```
+##🧪 About
+> The PINN model learns the solution 
+u(t,x) of the Burgers' equation:
+ ### ∂u/∂t + u ∂u/∂x = ν ∂²u/∂x²
+where ν is the kinematic viscosity. The neural network is trained with physics constraints encoded as loss functions to satisfy the PDE, initial and boundary conditions.
 
 ## 🖥️ Installation
 
@@ -34,6 +39,7 @@ The 1D viscous Burgers' equation is:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/pinn-burgers.git
-cd pinn-burgers
+git clone https://github.com/Rajas2706/Solving-1D-burger-equation-using-PINNs.git
+cd Solving-1D-burger-equation-using-PINNs
+
 
